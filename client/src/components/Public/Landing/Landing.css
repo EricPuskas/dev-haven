@@ -1,0 +1,169 @@
+.Landing {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+  height: 100%;
+  padding: 0.5rem 1rem;
+  font-family: "Ubuntu";
+}
+
+.Landing-container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  padding: 2rem;
+  border-radius: 25px;
+  border: 1px solid whitesmoke;
+  background-color: #fbfbfb;
+}
+
+.Landing-btn-container {
+  margin-top: 2rem;
+}
+
+.Landing-btn-container #log-in-btn {
+  border: 1px solid #e54f4f;
+  color: #e54f4f;
+  padding: 0.5rem 1.6rem;
+  font-size: 1.5rem;
+}
+
+.Landing-btn-container #sign-up-btn {
+  border: 1px solid #e54f4f;
+  padding: 0.6rem 1.8rem;
+  color: #fff;
+  background-color: #e54f4f;
+  font-size: 1.7rem;
+}
+
+.Landing-container h1 {
+  font-size: 2.9rem;
+  width: 100%;
+  padding: 0 1.2rem;
+}
+
+.Landing-container .dev {
+  color: #e54f4f;
+  font-weight: bold;
+  margin-right: -5px;
+}
+
+.Landing-container .haven {
+  font-weight: bold;
+  padding-left: 0.1rem;
+}
+
+.Landing-container h2 {
+  color: rgb(73, 73, 73);
+  margin: 1rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  text-align: start;
+}
+
+.Landing-container p {
+  font-size: 1.5rem;
+  color: rgb(73, 73, 73);
+  margin: 0 1rem 1rem 1rem;
+  padding: 0.5rem;
+  text-align: start;
+}
+
+.Landing-img-container {
+  margin-top: 3rem;
+  padding: 0 1.5rem;
+}
+.Landing-img {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  display: inline-block;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1366px) {
+  .Landing {
+    padding: 0;
+    margin-top: 50px;
+  }
+  .Landing-container {
+    padding: 1rem 0;
+    border-radius: 0;
+  }
+  .Landing-container h1 {
+    font-size: 1.6rem;
+    width: 100%;
+    padding: 0 0.5rem;
+    text-align: center;
+  }
+  .Landing-container h2 {
+    font-size: 1.1rem;
+    color: rgb(73, 73, 73);
+    margin: 0 1rem 1rem 1rem;
+    padding: 0.5rem;
+    text-align: start;
+  }
+  .Landing-container p {
+    font-size: 1.1rem;
+    color: rgb(73, 73, 73);
+    margin: 0 1rem 1rem 1rem;
+    padding: 0.5rem;
+    text-align: start;
+  }
+  .Landing-btn-container #sign-up-btn {
+    padding: 0.2rem 0.6rem;
+    font-size: 1.2rem;
+  }
+  .Landing-btn-container #log-in-btn {
+    padding: 0.1rem 0.4rem;
+    font-size: 1.1rem;
+  }
+  .Landing-btn-container {
+    margin-top: 0rem;
+  }
+  .Landing-img-container {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+  .Landing-img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
+  .Landing-container h1 {
+    font-size: 3rem;
+  }
+  .Landing-container p,
+  .Landing-container h2 {
+    font-size: 1.6rem;
+    margin: 1rem;
+    padding: 0.5rem;
+  }
+  .Landing-container {
+    padding: 2rem 0;
+  }
+  .Landing-btn-container #sign-up-btn {
+    padding: 0.2rem 0.6rem;
+    font-size: 1.2rem;
+  }
+  .Landing-btn-container #sign-up-btn {
+    padding: 0.6rem 1.8rem;
+    font-size: 1.8rem;
+  }
+  .Landing-btn-container #log-in-btn {
+    padding: 0.5rem 1.5rem;
+    font-size: 1.6rem;
+  }
+  .Landing-img-container {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+}

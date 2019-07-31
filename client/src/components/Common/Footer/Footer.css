@@ -1,0 +1,38 @@
+.Footer {
+  background: #fff;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  color: rgb(73, 73, 73);
+  font-family: "Ubuntu";
+  border-top: 1px solid #0000001c;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.Footer strong {
+  font-weight: normal;
+  margin-top: 0.5rem;
+  display: block;
+}
+
+@media only screen and (max-width: 823px) {
+  .Footer {
+    width: 100%;
+    font-size: 1rem;
+    height: 30px;
+    min-height: 30px;
+    max-height: 30px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Footer strong {
+    font-weight: normal;
+    display: block;
+    margin-top: 0;
+  }
+}

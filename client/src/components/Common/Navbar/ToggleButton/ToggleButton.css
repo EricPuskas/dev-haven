@@ -1,0 +1,40 @@
+.ToggleButton-btn {
+  display: flex;
+  border: none;
+  flex-direction: column;
+  height: 30px;
+  width: 35px;
+  background: transparent;
+  cursor: pointer;
+  padding: 3px;
+  margin: 0;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.ToggleButton-btn:focus {
+  outline: none;
+  cursor: pointer;
+}
+
+.ToggleButton-toggle-btn-line {
+  width: 25px;
+  height: 4px;
+  background: #e54f4f;
+  border-radius: 35px;
+}
+
+@media only screen and (max-width: 823px) {
+  .ToggleButton {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+  }
+}
+
+@media only screen and (min-width: 824px) {
+  .ToggleButton {
+    display: none;
+  }
+}

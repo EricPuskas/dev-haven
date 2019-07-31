@@ -1,0 +1,101 @@
+.ProfileNew {
+  height: 100vh;
+  background-color: rgb(250, 250, 250);
+  text-align: center;
+}
+
+.ProfileNew h1 {
+  color: #4f4f4f;
+}
+
+.ProfileNew p {
+  color: #4f4f4f;
+  font-size: 1.2rem;
+}
+
+.ProfileNew small {
+  color: #4f4f4f;
+  font-size: 0.9rem;
+}
+
+.ProfileNew .form-control {
+  background-color: #fafafa;
+}
+.ProfileNew .btn.btn-standard {
+  border: 1px solid #e54f4f;
+  color: #e54f4f;
+  padding: 0.2rem 1rem;
+  font-size: 1rem;
+}
+
+.ProfileNew .btn.btn-standard.btn-submit {
+  padding: 0.1rem 3rem;
+  font-size: 1.2rem;
+  background-color: #e54f4f;
+  color: #fff;
+}
+.ProfileNew .ProfileNew-optional {
+  font-size: 0.8rem;
+  color: #4f4f4f;
+  margin: 0 1rem;
+}
+
+.ProfileNew-social-inputs {
+  margin: 2rem 0;
+}
+
+.ProfileNew-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(250, 250, 250);
+  width: 100%;
+  align-items: center;
+  text-align: start;
+  height: auto;
+  padding: 2rem;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+.ProfileNew-container .main-div {
+  max-width: 800px;
+}
+
+.form-text {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 0rem;
+  margin-top: 1rem;
+}
+
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #fafafa;
+}
+.ProfileNew-controls {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.btn.btn-standard.btn-go-back {
+  border: 1px solid rgb(117, 117, 117);
+  color: rgb(117, 117, 117);
+}
+
+.errorMsg {
+  font-size: 0.7rem;
+  margin-top: 0.4rem;
+  color: #dc3545;
+  text-align: end;
+  display: block;
+  float: right;
+}

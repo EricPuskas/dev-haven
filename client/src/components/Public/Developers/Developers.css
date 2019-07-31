@@ -1,0 +1,111 @@
+.Developers {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  width: 100%;
+  align-items: center;
+  text-align: start;
+  height: 80vh;
+  padding: 2rem;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  font-family: "Ubuntu";
+}
+
+.Developer-profile {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem;
+  align-items: center;
+  margin-bottom: 5rem;
+  font-family: "Ubuntu";
+  min-width: 1000px;
+}
+.Developers h1 {
+  color: rgb(48, 48, 48);
+}
+
+.Developers p {
+  font-size: 1.1rem;
+}
+
+.Developers-list {
+  font-family: "Ubuntu";
+}
+.Developers-loader-container {
+  margin-top: -15rem;
+}
+
+.Developers-loader {
+  max-width: 150px;
+}
+
+.btn.btn-red {
+  background-color: #e54f4f;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-family: "Ubuntu";
+  margin: 0 0.25rem;
+  border: 1px solid #e54f4f;
+  color: #fff;
+}
+
+.text-primary {
+  color: #e54f4f !important;
+}
+
+.bg-primary {
+  background-color: #e54f4f !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #e54f4f;
+  border-color: #e54f4f;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+.post .round-img {
+  max-width: 75px;
+}
+
+.post {
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  grid-gap: 0rem;
+  align-items: center;
+}
+
+a {
+  color: #e54f4f;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.badge-primary {
+  color: #fff;
+  background-color: #e54f4f;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
+.post {
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  grid-gap: 0rem;
+  align-items: center;
+  text-align: start;
+}

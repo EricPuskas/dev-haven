@@ -1,0 +1,115 @@
+.SideNav {
+  height: 100%;
+  background: #fff;
+  position: fixed;
+  overflow: auto;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  max-width: 100vw;
+  color: black;
+  z-index: 9999;
+  transform: translateX(-100%);
+  transition: transform 0.4s ease-in-out;
+}
+
+.SideNav.open {
+  transform: translateX(0);
+}
+.SideNav ul {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0.5rem 1rem;
+}
+
+.SideNav li {
+  color: #c1fcff;
+  background: #17252a;
+  margin: 0.5rem;
+  border: 1px solid #c1fcff75;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.SideNav span,
+.SideNav a {
+  font-family: "Ubuntu";
+  font-size: 1.6rem;
+  width: 100%;
+  display: block;
+  height: auto;
+  display: inline-block;
+  color: #888;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #f6f6f600;
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
+}
+
+.SideNav a:active,
+.SideNav a:focus,
+.SideNav a:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+.SideNav button {
+  color: inherit;
+  outline: none;
+  border: none;
+  font-size: 1.3rem;
+  background: inherit;
+  font-family: "Ubuntu";
+}
+
+.SideNav .SideNav-login {
+  border: 1px solid #e54f4f;
+  color: #e54f4f;
+  padding: 0.3rem 1rem;
+}
+
+.SideNav .SideNav-signup {
+  border: 1px solid #e54f4f;
+  padding: 0.3rem 1rem;
+  color: #fff;
+  background-color: #e54f4f;
+}
+@media only screen and (max-width: 824px) {
+  .SideNav li {
+    padding: 0rem;
+  }
+}
+@media (min-width: 824px) {
+  .SideNav {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 823px) {
+  .SideNav {
+    height: 100%;
+    background: #fff;
+    position: fixed;
+    overflow: auto;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    max-width: 100vw;
+    color: black;
+    z-index: 9999;
+    transform: translateX(-100%);
+    transition: transform 0.4s ease-in-out;
+  }
+  .SideNav li {
+    background: #ffffff;
+    margin: 0.5rem;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    color: #888;
+    background-color: transparent;
+  }
+}

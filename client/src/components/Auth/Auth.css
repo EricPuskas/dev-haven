@@ -1,0 +1,242 @@
+.auth-container {
+  background: #fafafa;
+  width: 100%;
+  height: calc(100vh - 133px);
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: "Ubuntu";
+  align-items: flex-start;
+  padding: 0;
+}
+
+.auth-footer {
+  color: #fff;
+  position: absolute;
+  top: 94%;
+  width: 100%;
+  text-align: center;
+  font-size: 90%;
+  background: inherit;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.login-form {
+  z-index: 10000;
+  width: 100%;
+  text-align: center;
+  padding-top: 1%;
+}
+
+.login-form h1 {
+  color: #6a6a6a;
+  padding: 1rem;
+}
+
+.login-form a {
+  color: #888;
+  text-decoration: none;
+  background-color: transparent;
+}
+.login-form input:-webkit-autofill,
+.login-form input:-webkit-autofill:hover,
+.login-form input:-webkit-autofill:focus,
+.login-form input:-webkit-autofill:active {
+  box-shadow: 0 0 0 30px #fafafa inset !important;
+  -webkit-box-shadow: 0 0 0 30px #fafafa inset !important;
+}
+
+/*Change text in autofill textbox*/
+.login-form input:-webkit-autofill {
+  -webkit-text-fill-color: #727272 !important;
+}
+
+.login-form img {
+  max-width: 25px;
+}
+
+.login-form .form-control {
+  background: #fafafa none repeat scroll 0 0;
+  border: 1px solid #d4d4d4;
+  color: #727272;
+  font-size: 0.9rem;
+  line-height: 3rem;
+}
+
+.login-form .login-btn-group {
+  margin-top: 0.2rem;
+}
+
+.login-form .form-control:focus {
+  box-shadow: 0 0 0 0.1rem rgba(255, 255, 255, 0.37);
+}
+
+.login-form .btn.btn-primary {
+  padding: 0.2rem 2rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #fff;
+  border: 1px solid #e54f4f;
+  background-color: #e54f4f;
+}
+
+.login-form .btn-primary:not(:disabled):not(.disabled):active:focus,
+.login-form .btn.btn-primary:focus,
+.login-form .btn.btn-primary:active,
+.login-form .btn.btn-primary:hover {
+  border: 1px solid #e54f4f;
+  outline: none;
+  box-shadow: none;
+  background-color: #e54f4f;
+}
+
+.main-div {
+  box-shadow: -3px 3px 44px -34px rgba(0, 0, 0, 1);
+  background: #ffffff;
+  margin: 0 auto;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.main-div label {
+  text-align: start !important;
+  display: flex;
+  font-size: 0.9rem;
+  color: rgb(92, 92, 92);
+}
+
+.main-div form {
+  width: 100%;
+}
+
+.input-group-prepend span {
+  background: #e54f4f;
+  color: #fff;
+}
+
+.input-group-text.is-invalid {
+  border: 1px solid #dc3545;
+}
+
+#Register .invalid-feedback,
+#Login .invalid-feedback {
+  font-size: 0.75rem;
+  display: block;
+  margin-top: 0rem;
+  padding: 0;
+}
+
+.invalid-feedback {
+  font-size: 0.7rem;
+  margin-top: 0.4rem;
+  color: #dc3545;
+  text-align: start;
+}
+
+.invalid-feedback.fixed {
+  position: absolute;
+  text-align: end;
+  top: 100%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .login-form h1 {
+    color: #6a6a6a;
+    padding: 0rem;
+  }
+  .auth-container {
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0rem;
+    padding: 0rem;
+    height: 100vh;
+  }
+  .login-form {
+    padding: 0;
+    padding-top: 0.5rem;
+    width: 100%;
+  }
+
+  .login-form .form-control {
+    line-height: 3rem;
+    height: 3rem !important;
+  }
+
+  .login-form .btn.btn-primary {
+    padding: 0.5rem 2rem;
+    margin: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+
+  .main-div {
+    box-shadow: none;
+    margin: 0 auto;
+    border-radius: 10px;
+    max-width: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+  }
+
+  .main-div label {
+    padding: 0.2rem 0 0 0.1rem;
+    margin-top: 0rem;
+  }
+
+  .main-div form {
+    width: 100%;
+  }
+
+  .invalid-feedback {
+    display: none;
+    width: 100%;
+    top: 100%;
+    color: #dc3545;
+    right: 0;
+    text-align: center;
+  }
+  .login-form {
+    padding: 0;
+    width: 100%;
+    z-index: 0;
+  }
+  .main-div {
+    box-shadow: none;
+    margin: 0 auto;
+    border-radius: 0px;
+    max-width: 100%;
+    width: 100%;
+    padding: 0;
+  }
+  .main-div form {
+    width: 100%;
+    padding: 0 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  .auth-container {
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
+  .auth-container {
+    height: 100vh;
+  }
+  .login-form h1 {
+    padding: 1rem;
+    margin-top: 4rem;
+  }
+}

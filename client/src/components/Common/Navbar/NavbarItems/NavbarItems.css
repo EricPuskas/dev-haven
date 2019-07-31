@@ -1,0 +1,116 @@
+.NavbarItems {
+  display: flex;
+}
+
+.NavbarItems .is-active {
+  color: #888;
+  background-color: transparent;
+}
+
+.NavbarItems li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  margin: 0 1rem 0 0;
+}
+.NavbarItems li,
+.NavbarItems a {
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.NavbarItems i {
+  margin-right: 0.3rem;
+}
+.NavbarItems a {
+  display: inline-block;
+  color: #888;
+  text-decoration: none;
+  background-color: #f7f7f700;
+  border: 1px solid #f6f6f600;
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
+}
+
+.NavbarItems a:hover,
+.NavbarItems a:focus,
+.NavbarItems a:active {
+  color: #222121;
+  outline: none;
+  background-color: #f7f7f7;
+  border: 1px solid #f6f6f6;
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
+}
+
+.NavbarItems ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.NavbarItems li {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  margin-bottom: 0px;
+}
+
+.NavbarItems li:hover,
+.NavbarItems li:active,
+.NavbarItems li:focus {
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: transparent;
+}
+
+.spacer {
+  -webkit-flex: 1 1;
+  flex: 1 1;
+}
+
+.NavbarItems li .NavbarItems-login {
+  border: 1px solid #e54f4f;
+  color: #e54f4f;
+  padding: 0.3rem 1rem;
+}
+
+.NavbarItems li .NavbarItems-signup {
+  border: 1px solid #e54f4f;
+  padding: 0.3rem 1rem;
+  color: #fff;
+  background-color: #e54f4f;
+}
+
+.NavbarItems li .NavbarItems-signup:hover {
+  opacity: 0.7;
+}
+
+.NavbarItems li .NavbarItems-login:hover {
+  color: #222121;
+  outline: none;
+  background-color: #f7f7f7;
+  border: 1px solid #888;
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 823px) {
+  .NavbarItems {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  .NavbarItems {
+    padding-left: 3rem;
+  }
+}

@@ -1,0 +1,92 @@
+.NavbarLogo {
+  display: flex;
+}
+.NavbarLogo a {
+  color: #c1fcff;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+}
+
+.NavbarLogo a:hover {
+  text-decoration: none;
+  color: #00ffd2;
+}
+
+.NavbarLogo-img {
+  max-width: 150px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0rem;
+  align-items: center;
+}
+
+.NavbarLogo-img-sm {
+  max-width: 35px;
+}
+#name {
+  position: relative;
+  font-weight: normal;
+  font-family: "Ubuntu";
+  top: -5px;
+  left: -7px;
+  text-decoration: none;
+  font-size: 2rem;
+  color: #fff;
+}
+
+#role {
+  position: relative;
+  font-weight: normal;
+  font-family: "Ubuntu";
+  left: -176px;
+  top: 17px;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #fff;
+}
+
+@media only screen and (max-width: 823px) {
+  .NavbarLogo {
+    padding: 0;
+    margin: 0;
+  }
+  .NavbarLogo-img {
+    max-width: 100%;
+    width: 175px;
+    display: flex;
+    border-radius: 0px;
+    padding: 0;
+    align-items: flex-start;
+  }
+  .NavbarLogo a {
+    color: #c1fcff;
+    font-size: 1.1rem;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #name {
+    display: none;
+  }
+  #role {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  .NavbarLogo {
+    padding-left: 0rem;
+  }
+
+  #name {
+    top: -7px;
+    left: -13px;
+  }
+  #role {
+    left: -181px;
+    top: 14px;
+  }
+}

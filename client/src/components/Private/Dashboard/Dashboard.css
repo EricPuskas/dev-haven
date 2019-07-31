@@ -1,0 +1,159 @@
+.Dashboard {
+  text-align: center;
+  padding: 0rem;
+  margin: 0.5rem;
+  margin-top: 55px;
+  margin-bottom: 5rem;
+}
+
+.Dashboard h1 {
+  color: #777;
+}
+
+.Dashboard-controllers {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 2rem;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Dashboard-delete-container .btn.btn-standard {
+  padding: 0.3rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: "Ubuntu";
+  margin: 0rem 0 0 0;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid white;
+  background-color: #e54f4f;
+  color: #fff;
+}
+
+.Dashboard-controllers #create-profile {
+  border-radius: 5px;
+  font-family: "Ubuntu";
+  margin: 0 0.25rem;
+  padding: 0.3rem 1.8rem;
+  font-size: 1.2rem;
+  background-color: rgb(65, 65, 65);
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.Dashboard-controllers #edit-profile {
+  background-color: #fff;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-family: "Ubuntu";
+  margin: 0 0.25rem;
+  border: 1px solid #e54f4f;
+  color: #e54f4f;
+}
+
+.Dashboard-controllers #edit-profile:hover {
+  outline: none;
+  box-shadow: none;
+  background-color: transparent;
+  text-decoration: none;
+  border: 1px solid white;
+  background-color: #e54f4f;
+  color: #fff;
+}
+
+.Dashboard-controllers #add-exp {
+  background-color: #fff;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-family: "Ubuntu";
+  margin: 0 0.25rem;
+  border: 1px solid #64b8ff;
+  color: #64b8ff;
+}
+
+.Dashboard-controllers #add-exp:hover {
+  outline: none;
+  box-shadow: none;
+  background-color: transparent;
+  text-decoration: none;
+  border: 1px solid white;
+  background-color: #64b8ff;
+  color: #fff;
+}
+
+.Dashboard-controllers #add-edu {
+  background-color: #fff;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-family: "Ubuntu";
+  margin: 0 0.25rem;
+  border: 1px solid #028a57;
+  color: #028a57;
+}
+
+.Dashboard-controllers #add-edu:hover {
+  outline: none;
+  box-shadow: none;
+  background-color: transparent;
+  text-decoration: none;
+  border: 1px solid white;
+  background-color: #028a57;
+  color: #fff;
+}
+.Dashboard-edu-container h1,
+.Dashboard-exp-container h1 {
+  font-size: 1.9rem;
+}
+
+.Dashboard-exp-container,
+.Dashboard-edu-container {
+  padding: 2rem;
+}
+
+.table.f4 {
+  font-size: 1rem;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  font-size: 0.9rem;
+  padding: 0.2rem 0.8rem;
+}
+
+.Dashboard-loader-container {
+  margin: 0 auto;
+  height: 100vh;
+}
+.Dashboard-loader {
+  max-width: 150px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .Dashboard-exp-container,
+  .Dashboard-edu-container {
+    padding: 1rem 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  .Dashboard-controllers .btn.btn-standard {
+    padding: 0.3rem;
+    font-size: 0.8rem;
+    margin: 0 0.25rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+  background-color: #e9ecef;
+  opacity: 0.5;
+}
