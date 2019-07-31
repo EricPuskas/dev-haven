@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/EricPuskas/devconnect.git"
+    "url": "git+ssh://git@github.com/EricPuskas/dev-haven.git"
   },
   "author": "Eric Puskas",
   "license": "ISC",
