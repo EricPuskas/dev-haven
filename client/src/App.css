@@ -596,10 +596,6 @@ body {
   height: 100%;
 }
 
-::-webkit-scrollbar {
-  display: none;
-}
-
 .Landing .row .flex-center-col {
   display: flex;
   justify-content: center;

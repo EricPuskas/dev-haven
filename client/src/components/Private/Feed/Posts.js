@@ -1,9 +1,8 @@
-import React, { Fragment, useEffect } from "react";
+import React, { useEffect } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { getPosts } from "../../../actions/post";
 import PostItem from "./PostItem";
-import Loader from "../../../assets/img/rolling.svg";
 import PostForm from "./PostForm";
 
 const Posts = ({ getPosts, post: { posts, loading } }) => {

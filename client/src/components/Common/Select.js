@@ -1,23 +1,15 @@
 import React from "react";
 import classnames from "classnames";
-import PropTypes from "prop-types";
-import filterOptions from "../../utils/filterOptions";
-
 const Select = ({
   name,
   defaultValue,
   disabled,
   options,
   error,
-  error_fixed,
   onChange,
   profileFormGroup,
   large
 }) => {
-  // let filteredOptions;
-  // if (options && defaultValue) {
-  //   filteredOptions = filterOptions(options, defaultValue);
-  // }
   return (
     <div className="form-group">
       <select

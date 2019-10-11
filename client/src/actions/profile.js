@@ -1,12 +1,10 @@
 import axios from "axios";
-import { setAlert } from "./alert";
 import { getCurrentProfile, logoutUser } from "./auth";
 
 import {
   GET_PROFILE,
   GET_ERRORS,
   PROFILE_LOADING,
-  CLEAR_ERRORS,
   UPDATE_PROFILE,
   CLEAR_PROFILE,
   GET_PROFILES,

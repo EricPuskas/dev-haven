@@ -26,9 +26,7 @@ const ProfileNew = ({ errors, createProfile, history }) => {
   const [displaySocialInputs, toggleSocialInputs] = useState(false);
   const {
     company,
-    website,
     location,
-    status,
     skills,
     githubusername,
     bio,

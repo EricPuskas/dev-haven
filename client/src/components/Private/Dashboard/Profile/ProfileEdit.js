@@ -1,5 +1,4 @@
-import React, { Fragment, useState, useEffect } from "react";
-import PropTypes from "prop-types";
+import React, { useState, useEffect } from "react";
 import { connect } from "react-redux";
 import { createProfile } from "../../../../actions/profile";
 import { getCurrentProfile } from "../../../../actions/auth";
@@ -34,9 +33,7 @@ const ProfileEdit = ({
 
   const {
     company,
-    website,
     location,
-    status,
     skills,
     githubusername,
     bio,
@@ -73,7 +70,6 @@ const ProfileEdit = ({
       [e.target.name]: e.target.value
     });
   const handleSubmit = e => {
-    console.log(formData);
     e.preventDefault();
     createProfile(formData, history, true);
   };

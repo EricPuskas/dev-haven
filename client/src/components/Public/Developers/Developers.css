@@ -6,7 +6,7 @@
   width: 100%;
   align-items: center;
   text-align: start;
-  height: 80vh;
+  height: 100%;
   padding: 2rem;
   margin: 0 auto;
   margin-bottom: 5rem;
@@ -36,7 +36,7 @@
   font-family: "Ubuntu";
 }
 .Developers-loader-container {
-  margin-top: -15rem;
+  margin-top: 5rem;
 }
 
 .Developers-loader {

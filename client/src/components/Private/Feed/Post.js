@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect } from "react";
+import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
 import Loader from "../../../assets/img/rolling.svg";
@@ -10,6 +10,7 @@ import CommentItem from "./CommentItem";
 const Post = ({ getPost, post: { post, loading }, match }) => {
   useEffect(() => {
     getPost(match.params.id);
+    // eslint-disable-next-line
   }, [getPost]);
   return loading || post === null ? (
     <div className="Developers-loader-container">
