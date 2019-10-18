@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Profile Component renders component without crash 1`] = `
+"<ContextProvider value={{...}}>
+  <Connect(Profile) match={{...}} getProfileByID={[Function: mockConstructor]} profile={{...}} auth={{...}} />
+</ContextProvider>"
+`;

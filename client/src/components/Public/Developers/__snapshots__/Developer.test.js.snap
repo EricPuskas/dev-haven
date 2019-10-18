@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect to render Developer component 1`] = `
+"<div className=\\"profile bg-light\\">
+  <img src=\\"Something\\" alt=\\"Avatar\\" className=\\"round-img\\" />
+  <div>
+    <h2>
+      John
+    </h2>
+    <p>
+      Dev
+       
+      <span>
+         at 
+        Facebook
+      </span>
+    </p>
+    <p className=\\"my-1\\">
+      <span>
+        USA
+      </span>
+    </p>
+    <Link to=\\"/developers/1\\" className=\\"btn btn-red\\">
+      View Profile
+    </Link>
+  </div>
+  <ul>
+    <li className=\\"text-primary\\">
+      <i className=\\"fas fa-check\\" />
+       
+      1
+    </li>
+    <li className=\\"text-primary\\">
+      <i className=\\"fas fa-check\\" />
+       
+      2
+    </li>
+    <li className=\\"text-primary\\">
+      <i className=\\"fas fa-check\\" />
+       
+      3
+    </li>
+    <li className=\\"text-primary\\">
+      <i className=\\"fas fa-check\\" />
+       
+      4
+    </li>
+  </ul>
+</div>"
+`;

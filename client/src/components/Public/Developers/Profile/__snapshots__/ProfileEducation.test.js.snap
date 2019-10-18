@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect to render Profile Education component 1`] = `
+"<div>
+  <h3 className=\\"text-dark\\" />
+  <p>
+    <t format=\\"YYYY/MM/DD\\" element={{...}} fromNow={false} toNow={false} calendar={false} ago={false} unix={false} utc={false} local={false} unit={{...}} withTitle={false} decimal={false} titleFormat=\\"\\" interval={60000} filter={[Function: filter]} onChange={[Function: onChange]} />
+     -
+     
+    <t format=\\"YYYY/MM/DD\\" element={{...}} fromNow={false} toNow={false} calendar={false} ago={false} unix={false} utc={false} local={false} unit={{...}} withTitle={false} decimal={false} titleFormat=\\"\\" interval={60000} filter={[Function: filter]} onChange={[Function: onChange]} />
+  </p>
+  <p>
+    <strong>
+      Degree or Certification: 
+    </strong>
+     
+  </p>
+  <p>
+    <strong>
+      Field of Study: 
+    </strong>
+     
+  </p>
+  <p>
+    <strong>
+      Description: 
+    </strong>
+     
+  </p>
+</div>"
+`;

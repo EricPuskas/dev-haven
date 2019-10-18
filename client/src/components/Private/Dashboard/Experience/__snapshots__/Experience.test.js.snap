@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect to render Experience component 1`] = `
+"<div className=\\"Dashboard-exp-container\\">
+  <h1>
+     Experience Credentials 
+  </h1>
+  <div style={{...}}>
+    <table className=\\"table f4\\">
+      <thead>
+        <tr>
+          <th>
+            Company
+          </th>
+          <th className=\\"hide-sm\\">
+            Title 
+          </th>
+          <th>
+            Years 
+          </th>
+          <th />
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Google
+          </td>
+          <td className=\\"hide-sm\\">
+            Developer
+          </td>
+          <td>
+            <t format=\\"YYYY MMM\\" element={{...}} fromNow={false} toNow={false} calendar={false} ago={false} unix={false} utc={false} local={false} unit={{...}} withTitle={false} decimal={false} titleFormat=\\"\\" interval={60000} filter={[Function: filter]} onChange={[Function: onChange]}>
+              10/18/2018
+            </t>
+            <span className=\\"hide-sm\\">
+               - 
+            </span>
+             Now
+          </td>
+          <td>
+            <button className=\\"btn btn-danger\\" onClick={[Function: onClick]}>
+              <i className=\\"fas fa-trash-alt\\" />
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>"
+`;

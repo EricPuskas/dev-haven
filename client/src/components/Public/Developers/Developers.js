@@ -25,7 +25,7 @@ const Developers = ({ getProfiles, profile: { profiles, loading } }) => {
                 <Developer key={profile._id} profile={profile} />
               ))
             ) : (
-              <h4>No profiles found</h4>
+              <h4 id="no-profiles-found">No profiles found</h4>
             )}
           </div>
         </>
